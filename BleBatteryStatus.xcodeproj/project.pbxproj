@@ -13,6 +13,9 @@
 		A73BED9926BDC2B400AFC3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73BED9726BDC2B400AFC3EE /* Main.storyboard */; };
 		A73BEDA526BDC2B400AFC3EE /* BleBatteryStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDA426BDC2B400AFC3EE /* BleBatteryStatusTests.swift */; };
 		A73BEDB026BDC2B400AFC3EE /* BleBatteryStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDAF26BDC2B400AFC3EE /* BleBatteryStatusUITests.swift */; };
+		A73BEDC126BDCAAF00AFC3EE /* NSMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDC026BDCAAF00AFC3EE /* NSMenu+Extension.swift */; };
+		A73BEDC626BDCCF700AFC3EE /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDC526BDCCF700AFC3EE /* Date+Extension.swift */; };
+		A73BEDCB26BDCF6F00AFC3EE /* BTPairedDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDCA26BDCF6F00AFC3EE /* BTPairedDevices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		A73BEDAB26BDC2B400AFC3EE /* BleBatteryStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleBatteryStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73BEDAF26BDC2B400AFC3EE /* BleBatteryStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleBatteryStatusUITests.swift; sourceTree = "<group>"; };
 		A73BEDB126BDC2B400AFC3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73BEDC026BDCAAF00AFC3EE /* NSMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenu+Extension.swift"; sourceTree = "<group>"; };
+		A73BEDC526BDCCF700AFC3EE /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		A73BEDCA26BDCF6F00AFC3EE /* BTPairedDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTPairedDevices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A73BED9726BDC2B400AFC3EE /* Main.storyboard */,
 				A73BED9A26BDC2B400AFC3EE /* Info.plist */,
 				A73BED9B26BDC2B400AFC3EE /* BleBatteryStatus.entitlements */,
+				A73BEDC026BDCAAF00AFC3EE /* NSMenu+Extension.swift */,
+				A73BEDC526BDCCF700AFC3EE /* Date+Extension.swift */,
+				A73BEDCA26BDCF6F00AFC3EE /* BTPairedDevices.swift */,
 			);
 			path = BleBatteryStatus;
 			sourceTree = "<group>";
@@ -253,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73BEDCB26BDCF6F00AFC3EE /* BTPairedDevices.swift in Sources */,
 				A73BED9426BDC2B300AFC3EE /* ViewController.swift in Sources */,
+				A73BEDC626BDCCF700AFC3EE /* Date+Extension.swift in Sources */,
+				A73BEDC126BDCAAF00AFC3EE /* NSMenu+Extension.swift in Sources */,
 				A73BED9226BDC2B300AFC3EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
